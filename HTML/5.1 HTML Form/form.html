@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Messages</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <form cellspacing="10" action="mailto:devyanigoyal312@gmail.com">
+        <fieldset>
+            <legend style="color: rgb(5, 5, 219);"><strong>MESSAGES</strong></legend>
+            <br>
+            <div>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="branch">Branch:</label>
+                <select id="branch" name="branch">
+                    <option value="CSE" selected>CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="ME">ME</option>
+                    <option value="CE">CE</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="msg">Type your Message:</label>
+                <br>
+                <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+            <br>
+            <div>
+                Gender: 
+                Male <input type="radio" name="myGender">
+                Female <input type="radio" name="myGender">
+                Other <input type="radio" name="myGender">
+            </div>
+            <br>
+            <div>
+                Are you eligible? : <input type="checkbox" name="myEligibility">
+            </div>
+            <br>
+            <div>
+                <input type="date" name="myDate">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Now">
+                <br>
+                <input type="reset" value="Reset Now">
+            </div>
+            <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
