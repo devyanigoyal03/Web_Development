@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <label for="email">Email : </label>
+        <input type="email" id="email">
+        <br> <br>
+
+        <label for="phone">Mobile : </label>
+        <input type="tel" id="phone">
+        <br> <br>
+
+        <label for="file">Resume : </label>
+        <input type="file" id="file">
+        <br> <br>
+
+        <label for="txt">Experience(in years) : </label>
+        <input type="text" id="txt">
+        <br> <br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" id="skill1">
+            <label for="skill1">HTML</label>
+            <input type="checkbox" id="skill2">
+            <label for="skill2">CSS</label>
+            <input type="checkbox" id="skill3">
+            <label for="skill3">Javascript</label>
+        </fieldset>
+        <br> <br>
+
+        <label for="edu">Highest Education : </label>
+        <select id="edu">
+            <option id="edu">U.G</option>
+            <option id="edu">X</option>
+            <option id="edu">XII</option>
+        </select>
+        
+        <fieldset>
+            <legend>Availability</legend>
+            <input type="radio" id="r1" name="availability">
+            <label for="r1">Full Time</label>
+            <input type="radio" id="r1" name="availability">
+            <label for="r2">Part Time</label>
+        </fieldset>
+
+        <label for="cmnt">Additional Comments</label><br>
+        <textarea rows="10" cols="30"></textarea>
+        <br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+
+</html>
